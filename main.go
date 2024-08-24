@@ -10,6 +10,6 @@ func main() {
 	r := p.TTT{
 		Email: "test@gmail.com",
 	}
-
+	log.Println("rtests")
 	log.Printf("%+v", r)
 }
