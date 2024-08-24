@@ -7,8 +7,9 @@ import (
 )
 
 func main() {
-	age := 50
-	r := p.T2{Age: &age}
+	r := p.TTT{
+		Email: "test@gmail.com",
+	}
 
-	log.Printf("Age is: %v", *r.Age)
+	log.Printf("%+v", r)
 }
