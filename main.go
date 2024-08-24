@@ -7,6 +7,8 @@ import (
 )
 
 func main() {
-	r := p.Match{Text: "hello world"}
-	log.Printf("%+v", r)
+	age := 50
+	r := p.T2{Age: &age}
+
+	log.Printf("Age is: %v", *r.Age)
 }
