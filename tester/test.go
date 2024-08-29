@@ -7,7 +7,7 @@ import (
 )
 
 func Alibaba() {
-	age := 50
+	age := 110
 	r := p.T2{Age: &age}
 
 	log.Printf("Age is: %v", *r.Age)
